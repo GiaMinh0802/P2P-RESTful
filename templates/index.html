@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>P2P Messaging</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div id="container">
+		<h1>P2P Messaging</h1>
+		<div id="messages"></div>
+		<form id="messageForm">
+			<input type="text" id="nameInput" placeholder="Your Name">
+			<input type="text" id="messageInput" placeholder="Your Message">
+			<button type="submit">Send</button>
+		</form>
+	</div>
+	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

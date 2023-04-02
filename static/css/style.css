@@ -1,0 +1,47 @@
+#container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: auto;
+	border: none;
+	border-radius: 5px;
+}
+
+button[type="submit"] {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+#messages {
+	text-align: left;
+	margin-top: 30px;
+	height: 300px;
+	overflow: auto;
+}
+
+.message {
+	margin-bottom: 10px;
+}
+
+.message span {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.message p {
+	margin: 0;
+}
